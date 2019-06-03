@@ -6,4 +6,4 @@ build_process:
 	gcc -o build_process_helloWorld build_process_helloWorld.o
 
 clean:
-	-rm -rf build_process
+	-rm -rf *.o build_process_helloWorld build_process_helloWorld.s
